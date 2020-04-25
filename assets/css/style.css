@@ -1,0 +1,255 @@
+
+/* Custom Stylesheet  */
+body {
+    background-color: rgba(128,228,129,0.7);
+}
+
+
+nav ul a,
+nav .brand-logo {
+  color: #fff;
+}
+
+a, a:link, a:visited {
+  list-style: none !important;
+  text-decoration: none !important;
+}
+
+
+nav ul li ul {
+  position: absolute;
+  display: none;
+  z-index: 200;
+  background-color: rgba(44, 95, 7,0.8);
+
+}
+
+nav ul li ul li {
+  display: contents;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav ul li ul li a {
+  list-style: none !important;
+  color: #fff !important;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+
+
+#login-page {
+  max-width: 50%;
+  margin-bottom: 0px;
+
+}
+
+.antesDelForm {
+  z-index: 200;
+  position: fixed;
+  max-width: 50%;
+}
+
+p {
+  line-height: 2rem;
+}
+
+/* GENERALES */
+.mh-80 {
+  min-height: 80vh;
+}
+
+.wi-100 {
+  width: 100%;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 100vh;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+    width: 100%;
+}
+
+
+.home {
+    background-color: rgba(0,0,0,0.5);
+  }
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+.logo {
+  max-width: 250px !important;
+}
+
+.logoHome {
+  z-index: 5000 !important;
+}
+
+.card {
+  transition: width 2s;
+}
+
+.fondo-trans {
+  background-color: rgba(27,94,32, 0.03);
+}
+
+.cardTitulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.cardTituloCategoria {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem !important;
+}
+
+.card-reveal {
+  background-color: rgba(51,105,30,1) !important;
+  color: #fff;
+}
+
+.card-reveal p {
+  max-height: 40%;
+}
+
+.cartaProductos a {
+  color: #000 !important;
+}
+
+.cartaProductos img {
+  width: 100%;
+  height: 155px;
+}
+
+.masProductos {
+  margin-top: 5px;
+}
+
+.masProductos a, a:hover, {
+  text-decoration: none;
+  color: #082b04;
+}
+
+
+.fondo-invisible {
+  background-color: rgba(1,1,1,0);
+}
+
+.btnProductos {
+  background-color: rgba(27,94,32, 0.4);
+}
+
+#carta .btn-large:hover, .btn-large:hover {
+  background-color: rgba(27,94,32, 0.8) !important;
+}
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+  .logo {
+  max-width: 150px !important;
+}
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (min-width:  : 993px){
+    
+}
+
+/* FORMULARIO DE REGISTRO */
+#formRegistro {
+  max-width: 70%;
+  background-color: #fff;
+  margin-top: 15px;
+}
+
+.col.s6 > .btn {
+   width: 100%;
+}
+.gender-male,.gender-female {
+  display: inline-block;
+}
+.gender-female {
+  margin-left: 35px;
+}
+radio:required {
+  border-color: red;
+}
+.container {
+  animation: showUp 0.5s cubic-bezier(0.18, 1.3, 1, 1) forwards;
+}
+
+@keyframes showUp {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transoform: scale(1);
+  }
+}
+.row {margin-bottom: 10px;}
+
+.ngl {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
+
+
+.boton-guardar {
+  background-color: #4caf50;
+  border: 0;
+  border-radius: 3px;
+  color: #fff;
+  padding: 7px;
+}
+
+.boton-guardar:hover {
+  background-color: #377b39;
+}
+
+/* PRODUCTOS */
+
+/*(VER)*/
+.descripcion {
+  text-align: justify;
+  text-justify: inter-word;
+}
